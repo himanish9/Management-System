@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit runtime
+.streamlit/
+
+# Output artifacts
+outputs/*.csv
+outputs/*.txt
+!outputs/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
